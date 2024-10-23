@@ -35,7 +35,7 @@ const CreatePage = () => {
   return (
     <Container maxW="100%" display="flex" justifyContent="center" alignItems="center" pt="100">
       <Box w={"50%"} display = "flex" flexDirection ="column" justifyContent="center" alignItems="center" gap={10}>
-      <Text fontSize='5xl'>Create New Product</Text>
+      <Text fontSize='5xl' bgGradient = {"linear(to-r, #FF606A, #FF101F)"} bgClip = {"text"} >Create New Product</Text>
         <VStack display={"flex"} flexDirection={"column"} spacing={4} w={"80%"} p={6} background={useColorModeValue("White", "gray.800")} rounded={"lg"}>
                 <Input 
                 placeholder='Product Name' 
